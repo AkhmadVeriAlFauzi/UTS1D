@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-public class JawabanNomerTiga {
+public class JawabanNomertiga {
     int DataArea = 5;
     static int jumlah = 50;
     public static String[] K_Kudus = new String[5];
@@ -69,7 +69,7 @@ public class JawabanNomerTiga {
                 CheckIndexArray(B_Jakarta,plat);
                 System.out.println("Anda Berasal Dari Jakarta");
                 PrintInfoPlat();
-            break;
+                break;
             case 3:
                 CheckIndexArray(AB_Jogja,plat);
                 System.out.println("Anda Berasal Dari Jogja");
@@ -107,5 +107,6 @@ public class JawabanNomerTiga {
         //
     }
 }
+
 
 
